@@ -1,0 +1,5 @@
+<h1>Blog</h1>
+
+<% @posts.each do |entry| %>
+  <p><a href="/entry/<%= entry %>"><%= entry %></a></p>
+<% end %>
